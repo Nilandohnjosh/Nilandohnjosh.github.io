@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What are the best practices associated with using classes vs. ids?</title>
+  <link rel="stylesheet" href="./styles/blog.css">
+  <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">    
+</head>
+<body>
+  <!-- <header id="title"> -->
+    <h1>What are the best practices associated with using classes vs. ids</h1>
+    <ul>
+      <li><a href="index.html">About Me</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="identity.html">Identities and Values</a></li>
+      <li><a href="learningPlan.html">Learning Plan</a></li>
+    </ul>
+  <!-- </header> -->
+
+  <main>
+        <p>First, lets begin with the difference between a class and an id.</p>
+
+        <h2>Class</h2>
+        <hr>
+        <p>A CSS class is an attribute used to define a group of HTML elements in order to apply unique styling and formatting to those elements with CSS. Let’s look at an example of how CSS classes work. Below, we have a simple HTML page with three headings (h2 elements) and three paragraphs (p elements).
+          Notice how the second heading, third heading, and final paragraph are styled differently than the rest — this is because these elements have been assigned the class bright. Looking at the CSS, we see the .bright selector, which applies its style rules to all elements with the attribute class="bright".</p>
+        <br>
+        <img src="./images/cssClass.png" alt="Class" class="class">
+          <figure>
+            <img src="./images/classEg.png" alt="" class="class2">
+            <figcaption>An example of the CSS Class</figcaption>
+          </figure>
+
+
+        <h2>ID</h2>
+        <hr>
+        <p>
+          A CSS ID selector uses the ID attribute of an HTML element to select one unique element on a page. To use an ID selector in CSS, you simply write a hashtag (#) followed by the ID of the element. Then put the style properties you want to apply to the element in brackets.
+          Here’s a look at the syntax of an ID selector in CSS:
+          <br>
+        <img src="./images/idExample.png" alt="id syntax" class="syntax">
+
+        <br>
+        The first rule to keep in mind when using the ID attribute is that it must contain at least one character and cannot begin with a number. Let’s say I have multiple h2s on my site and each marks the start of a new chapter. Then I might give each h2 an ID name. The following HTML is correct:
+        <br>
+        <img src="./images/example.png" alt="example2" class="syntax">
+        <br>
+        Here is an example of the ID being used correctly in code form.
+        <br>
+        <img src="./images/idExample2.png" alt="" class="syntax2">
+        </p>
+
+        <h2>Now what is the best practices for using a class and id.</h2>
+        <hr>
+        <p>What helps determine for you to use a class or ID is dependant on the Specificity
+          Every CSS selector has its place in the specificity hierarchy. There are four categories which define the specificity level of a selector:
+        </p>
+        <ol>
+          <p><span class="best">Inline styles</span> - Example:<h1 style="color: pink;"></h1></p>
+          <p><span class="best">IDs</span> - Example: #navbar</p>
+          <p><span class="best">Classes, pseudo-classes, attribute selectors</span> - Example: .test, :hover, [href]</p>
+          <p><span class="best">Elements and pseudo-elements</span> - Example: h1, :before</p>
+        </ol>
+        <p>So basically it depends on which you want to use. Classes can and should be applied to alot of HTML elements, whereas IDs
+          should be more uniquely used seeing how an ID can only be used once and classes can be used on multiple elements.
+          I am adding a link to a website which will help visualise it for you if you can't understand it. <a href="https://specificity.keegan.st/">Click Here.</a>
+        </p>
+  </main>
+</body>
+</html>
