@@ -93,13 +93,13 @@ main {
   margin-right: auto;
 }
 
+.important {
+  color: red;
+}
+
 figcaption {
   text-align: center;
   margin-top: 21px;
   background-color: black;
   color: white;
-}
-
-.important {
-  color: red;
 }
