@@ -95,7 +95,11 @@ main {
 
 figcaption {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 21px;
   background-color: black;
   color: white;
+}
+
+.important {
+  color: red;
 }
