@@ -7,6 +7,9 @@
   <title>What are the best practices associated with using classes vs. ids?</title>
   <link rel="stylesheet" href="/styles/blog.css">
   <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">    
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200&display=swap" rel="stylesheet">
 </head>
 <body>
   <!-- <header id="title"> -->
@@ -17,6 +20,10 @@
       <li><a href="/blog/identity.html">Identities and Values</a></li>
       <li><a href="/blog/learningPlan.html">Learning Plan</a></li>
       <li><a href="/blog/javascript-dom.html">Javascript Technical Blog</a></li>
+      <li><a href="/blog/emotional-intelligence.html">Emotional Intelligence</a></li>
+      <li><a href="/blog/neuroplasticity.html">Neuroplasticity</a></li>
+      <li><a href="/blog/problem-solving.html">Problem Solving</a></li>
+
     </ul>
   <!-- </header> -->
 
@@ -70,7 +77,14 @@
         </figure>
         <p>Arrays and Objects are used in Javascript and they can hold items within them. As you can see in the images above, the Array holds three car items,
           Saab, Volvo and BMW. The Object hold three items with more defining items. The car object hold three properties with their values. Type with Fiat,
-          model with 500 and color with white. They both can hold information but are used differently.
+          model with 500 and color with white. They both can hold information but are used differently.</p>
+        <p>To access items on an Array you would select the 'cars'
+          object and use a square bracket next to it.[ ]. To select an item we start counting from 0 for the first item and onwards. For example cars[0] would
+          select "Saab", cars[1] would select "Volvo" and cars[3] would select "BMW".</p>
+        <p>To access items in an Object you want to start by selecting the object itself. In this case we'll be selecting car. Now we gotta select the property
+          and out properties in the object would be 'type', 'model', and 'color'. Instead of using square brackets[], we'll be using selecting the car object,
+          with a dot and then the property. For example, car.type would return "Fiat", car.model would return "500" and car.color would return "white".
+
         </p>
 
         <h2>Javascript Functions</h2>
@@ -81,7 +95,15 @@
           <img src="/images/func.png" alt="">
           <figcaption>Here is an example of a <span class="important">Function</span></figcaption>
         </figure>
-        <p>In the example above, we have a function called HelloWorld and in it, once its called it shows a message on the web page saying "Hello World"</p>
+        <p>In the example above, we have a function called HelloWorld and in it, once its called it shows a message on the web page saying "Hello World". You
+          can have multiple functions that don't have to be saying hello world. For example you could have a function that changes the background color of an image
+          if you click on something, or changing the text of something. Functions can do alot of things, there are even functions that work alongside key press. For
+          example, you could press the 'K' key on a keyboard and a function could run code where once that key is pressed, it could scroll down to a specific
+          part in the web page.</p>
+        <p>Functions are very useful because it can take multiple lines of code and put it into a function so instead of writing down all that code to
+          do one thing, you can condense all that code and put it into a function and all you have to do to call that code is call the function. You could
+          have 20 lines of code telling you to do something, and all it takes it one line of the function calling it and thats all. Thats why functions are useful.
+        </p>
   </main>
 </body>
 </html>
