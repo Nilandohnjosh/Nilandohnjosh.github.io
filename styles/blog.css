@@ -1,22 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200&display=swap');
 
 body {
-  background-color: lightgrey;
+  background-color: #FDCFB2;
   font-size: 20px;
   /* font-family: 'Hachi Maru Pop', cursive; */
   font-family: 'Roboto Mono', monospace;
 
 }
 
-#title {
+/* #title {
   background-color: yellow;
   padding: 40px;
   width: auto;
   color: red;
   font-weight: 800;
   margin: auto;
-}
+} */
 
+h1 {
+  text-align: center;
+}
 h2 {
   font-weight: 100; 
   text-align: center;
@@ -31,10 +34,10 @@ h3 {
 
 ul {
   list-style-type: none;
-  margin-left: -50px;
+  /* margin-left: -50px; */
   /* padding: 25px; */
   overflow: hidden;
-  background-color: gray;
+  background-color: #474350;
 }
 
 hr {
@@ -54,7 +57,7 @@ li a {
   text-align: center;
   padding: 20px 20px;
   text-decoration: none;
-  background-color: gray;
+  background-color: #474350;
 }
 
 li a:hover {
@@ -68,7 +71,7 @@ main {
   margin: auto;
   padding: 20px;
   border: 1px solid black;
-  background-color: white;
+  background-color: #F8FFF4;
   height:auto;
   overflow:auto;
 
@@ -110,7 +113,7 @@ main {
 }
  
 p {
-  background-color: lightgray;
+  background-color: #CED3DC;
   opacity: 2;
   padding: 20px;;
 } 
@@ -119,7 +122,7 @@ p:hover {
   transform: scale(1.02);
   border: 1px solid;
   padding: 10px;
-  box-shadow: 2px 5px black;
+  box-shadow: 2px 5px #474350;
 }
 
 .important {
